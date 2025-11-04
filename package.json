@@ -1,0 +1,15 @@
+{
+  "name": "fullstack-boilerplate",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "pnpm --parallel build",
+    "dev": "pnpm --parallel dev",
+    "web:dev": "pnpm --filter web dev",
+    "api:dev": "pnpm --filter api dev",
+    "test": "pnpm --parallel test",
+    "test:shared": "pnpm --filter @monorepo/shared test",
+    "test:api": "pnpm --filter api test",
+    "test:web": "pnpm --filter web test"
+  }
+}
